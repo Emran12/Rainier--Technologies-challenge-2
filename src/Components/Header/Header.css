@@ -1,0 +1,18 @@
+.homeText {
+    color: #646F75;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    line-height: 36px;
+    width: 73px;
+    height: 36px;
+}
+
+.toggleButton {
+    margin-left: 1081px;
+}
+
+.avatar {
+    margin-left: 22px;
+}

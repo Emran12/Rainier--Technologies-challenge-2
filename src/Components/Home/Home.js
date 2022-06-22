@@ -12,11 +12,11 @@ const Home = () => {
       <div>
         <SideBar></SideBar>
       </div>
-      <div className="">
+      <div className="header">
         <div>
           <Header></Header>
         </div>
-        <div>
+        <div className="bannerWithAppointments">
           <div>
             <Banner></Banner>
           </div>
