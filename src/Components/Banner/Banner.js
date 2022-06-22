@@ -11,7 +11,9 @@ const Banner = () => {
         <p className="text-[16px] leading-[150%]">
           Stay Up-to-Date with your appointments.
         </p>
-        <p>You Have No pending Reports</p>
+        <p className="text-[16px] leading-[150%]">
+          You Have No pending Reports
+        </p>
       </div>
     </div>
   );

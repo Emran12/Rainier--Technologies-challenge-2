@@ -1,0 +1,42 @@
+.appointment {
+    width: 452px;
+    background: #FFFFFF;
+    border: 1px solid #EDEBEB;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 395px;
+    height: 100px;
+    border: 1px solid #FDDAD6;
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-left: 40px;
+}
+
+.day {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    color: #384449;
+}
+
+.d-info {
+    background: #FFF5F5;
+}
+
+.option {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    padding-right: 8px;
+}
+
+.time {
+    background-color: white;
+}

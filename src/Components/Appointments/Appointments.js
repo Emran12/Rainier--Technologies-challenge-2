@@ -1,11 +1,107 @@
-import React from 'react';
+import React from "react";
+import "./Appointments.css";
 
 const Appointments = () => {
-    return (
-        <div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime saepe nostrum enim dolorum consectetur aspernatur aliquid libero officia, ipsam veritatis doloremque dolor et voluptas totam excepturi rerum? Necessitatibus nisi placeat et quo impedit aliquam odit voluptatibus veniam reiciendis velit quis exercitationem corrupti quibusdam, sapiente eaque tenetur, unde esse beatae praesentium delectus. Suscipit veritatis, ipsa repellendus nesciunt ipsam totam repellat, amet delectus molestiae voluptate consectetur sint rerum, ratione minus culpa eveniet! Quis adipisci aspernatur doloremque modi dolor reprehenderit amet esse commodi, quasi fugit exercitationem nobis recusandae ex maxime similique! Nemo quidem quam quos quas neque magni modi, suscipit hic deserunt, doloribus facere delectus, accusantium omnis culpa mollitia fugit praesentium commodi. Animi repellendus aspernatur cupiditate iste quam accusamus. Saepe quis quo in facere nam maxime officiis impedit earum aspernatur, accusamus esse deserunt itaque iure consequatur perspiciatis et at deleniti ipsa. Possimus porro omnis obcaecati eaque odit sint tenetur dolore enim aspernatur eos.</p>
+  const data = [
+    {
+      name: "Dr. Muhammad Abdul Hussein",
+      designation: "Cardiologist",
+      slot: "Morning",
+      time: "10.00 AM",
+      year: "2022",
+      day: "13",
+      month: "Sep",
+    },
+    {
+      name: "Dr. Muhammad Abdul Hussein",
+      designation: "Cardiologist",
+      slot: "Morning",
+      time: "10.00 AM",
+      year: "2022",
+      day: "13",
+      month: "Sep",
+    },
+    {
+      name: "Dr. Muhammad Abdul Hussein",
+      designation: "Cardiologist",
+      slot: "Morning",
+      time: "10.00 AM",
+      year: "2022",
+      day: "13",
+      month: "Sep",
+    },
+    {
+      name: "Dr. Muhammad Abdul Hussein",
+      designation: "Cardiologist",
+      slot: "Morning",
+      time: "10.00 AM",
+      year: "2022",
+      day: "13",
+      month: "Sep",
+    },
+    {
+      name: "Dr. Muhammad Abdul Hussein",
+      designation: "Cardiologist",
+      slot: "Morning",
+      time: "10.00 AM",
+      year: "2022",
+      day: "13",
+      month: "Sep",
+    },
+  ];
+  return (
+    <div className="appointment mt-[30px] pl-[16px] pt-[16px]">
+      <h1>Upcoming Appointments</h1>
+      {data.map((info) => (
+        <div className="card">
+          <div className="flex">
+            <div className="flex flex-col w-[63px] h-[100px] rounded-full border pl-[16px] pr-[14px] gap-[8px]">
+              <p>{info.year}</p>
+              <p className="day">{info.day}</p>
+              <p>{info.month}</p>
+            </div>
+            <div className="d-info flex flex-col w-full pl-[8px]">
+              <h1
+                style={{
+                  color: "#384449",
+                  fontStyle: "normal",
+                  fontWeight: "500",
+                  fontSize: "16px",
+                }}
+              >
+                {info.name}
+              </h1>
+              <p
+                style={{
+                  color: "#2E1619",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  fontSize: "13px",
+                }}
+              >
+                Cardiologist
+              </p>
+              <div className="flex mt-[8px]">
+                <div>
+                  {" "}
+                  <p className="time">
+                    <span className="option">Slot</span>
+                    <span style={{ color: "#384449" }}>{info.slot}</span>
+                  </p>
+                </div>
+                <div>
+                  <p className="time ml-[10px]">
+                    <span className="option">Time</span>
+                    <span>{info.time}</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    );
+      ))}
+    </div>
+  );
 };
 
 export default Appointments;
