@@ -11,6 +11,7 @@ const Appointments = () => {
       year: "2022",
       day: "13",
       month: "Sep",
+      stepColor: "#FF9898",
     },
     {
       name: "Dr. Muhammad Abdul Hussein",
@@ -20,6 +21,7 @@ const Appointments = () => {
       year: "2022",
       day: "13",
       month: "Sep",
+      stepColor: "#FFF598",
     },
     {
       name: "Dr. Muhammad Abdul Hussein",
@@ -29,7 +31,9 @@ const Appointments = () => {
       year: "2022",
       day: "13",
       month: "Sep",
+      stepColor: "#98FFC1",
     },
+
     {
       name: "Dr. Muhammad Abdul Hussein",
       designation: "Cardiologist",
@@ -38,29 +42,23 @@ const Appointments = () => {
       year: "2022",
       day: "13",
       month: "Sep",
-    },
-    {
-      name: "Dr. Muhammad Abdul Hussein",
-      designation: "Cardiologist",
-      slot: "Morning",
-      time: "10.00 AM",
-      year: "2022",
-      day: "13",
-      month: "Sep",
+      stepColor: "#98C7FF",
     },
   ];
+
   return (
     <div className="appointment mt-[30px] pl-[16px] pt-[16px]">
       <h1>Upcoming Appointments</h1>
+
       {data.map((info) => (
-        <div className="card">
+        <div>
           <div className="flex">
-            <div className="flex flex-col w-[63px] h-[100px] rounded-full border pl-[16px] pr-[14px] gap-[8px]">
+            <div className="flex flex-col w-[63px] h-[100px] rounded-2xl border pl-[16px] pr-[14px] mt-[24px] ml-[40px] gap-[8px]">
               <p>{info.year}</p>
               <p className="day">{info.day}</p>
               <p>{info.month}</p>
             </div>
-            <div className="d-info flex flex-col w-full pl-[8px]">
+            <div className="d-info flex flex-col w-full pl-[8px] card">
               <h1
                 style={{
                   color: "#384449",

@@ -3,6 +3,7 @@ import Appointments from "../Appointments/Appointments";
 import Banner from "../Banner/Banner";
 import Header from "../Header/Header";
 import SideBar from "../SideBar/SideBar";
+import Treatments from "../Treatments/Treatments";
 
 import "./Home.css";
 
@@ -19,6 +20,7 @@ const Home = () => {
         <div className="bannerWithAppointments">
           <div>
             <Banner></Banner>
+            <Treatments></Treatments>
           </div>
           <div>
             <Appointments></Appointments>
