@@ -52,7 +52,7 @@ const Appointments = () => {
 
       {data.map((info) => (
         <div>
-          <div className="flex">
+          <div className="flex pb-[24px]">
             <div className="flex flex-col w-[63px] h-[100px] rounded-2xl border pl-[16px] pr-[14px] mt-[24px] ml-[40px] gap-[8px]">
               <p>{info.year}</p>
               <p className="day">{info.day}</p>

@@ -3,6 +3,7 @@ import Appointments from "../Appointments/Appointments";
 import Banner from "../Banner/Banner";
 import Header from "../Header/Header";
 import SideBar from "../SideBar/SideBar";
+import TodoList from "../TodoList/TodoList";
 import Treatments from "../Treatments/Treatments";
 import Update from "../Update/Update";
 
@@ -22,6 +23,7 @@ const Home = () => {
           <div>
             <Banner></Banner>
             <Treatments></Treatments>
+            <TodoList></TodoList>
           </div>
           <div>
             <Appointments></Appointments>

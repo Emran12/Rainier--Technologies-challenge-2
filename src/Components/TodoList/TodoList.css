@@ -1,0 +1,38 @@
+.todoList {
+    box-sizing: border-box;
+    width: 718px;
+    height: 445px;
+    background: #FFFFFF;
+    border: 1px solid #EDEBEB;
+    border-radius: 8px;
+}
+
+.todoListed {
+    box-sizing: border-box;
+    width: 569px;
+    height: 76px;
+    background: #FFFFFF;
+    border: 1px solid #EDEBEB;
+    border-radius: 8px;
+}
+
+.add {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 83px;
+    height: 32px;
+    margin-left: 16px;
+    color: white;
+    background: linear-gradient(101.27deg, #FF7594 -6.58%, #FF7C65 102.46%);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.unCheck {
+    width: 26px;
+    height: 26px;
+    background: #EDEBEB;
+}
