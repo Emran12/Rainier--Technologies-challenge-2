@@ -10,27 +10,27 @@ import "./SideBar.css";
 
 const SideBar = () => {
   return (
-    <div>
+    <div className="sideBar">
       <ul>
-        <li>
-          <img className="menuIcon" src={menu} alt="" />
+        <li className="mt-[31px] mr-[31px] ml-[17px]">
+          <img src={menu} alt="" />
         </li>
-        <li>
-          <img className="homeIcon" src={home} alt="" />
+        <li className="mt-[108px] mr-[24px] ml-[24px]">
+          <img className="w-[27px] h-[30px]" src={home} alt="" />
         </li>
-        <li>
-          <img className="profileIcon" src={patientProfile} alt="" />
+        <li className="mt-[47px] mr-[24px] ml-[24px]">
+          <img className="w-[29px] h-[29px]" src={patientProfile} alt="" />
         </li>
-        <li>
-          <img className="appointmentIcon" src={appointment} alt="" />
+        <li className="mt-[47px] mr-[24px] ml-[24px]">
+          <img className="w-[29px] h-[29px]" src={appointment} alt="" />
         </li>
-        <li>
-          <img className="historyIcon" src={medicalHistory} alt="" />
+        <li className="mt-[47px] mr-[24px] ml-[24px]">
+          <img className="w-[29px] h-[29px]" src={medicalHistory} alt="" />
         </li>
-        <li>
-          <img src={settings} alt="" />
+        <li className="mt-[47px]  mr-[24px] ml-[24px]">
+          <img className="w-[29px] h-[29px]" src={settings} alt="" />
         </li>
-        <li>
+        <li className="mt-[355px] mr-[24px] ml-[24px]">
           <img src={round} alt="" />
         </li>
       </ul>

@@ -16,8 +16,13 @@ const Header = () => {
           <li className="avatar">
             <img src={avatar} alt="" />
           </li>
-          <li>
-            <img src={downArrow} alt="" />
+          <li className="pt-4">
+            <img
+              className="w-[17px] h-[10px] ml-[11px] "
+              style={{ color: "#384449" }}
+              src={downArrow}
+              alt=""
+            />
           </li>
         </ul>
       </div>
