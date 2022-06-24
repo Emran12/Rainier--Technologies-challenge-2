@@ -4,6 +4,7 @@ import Banner from "../Banner/Banner";
 import Header from "../Header/Header";
 import SideBar from "../SideBar/SideBar";
 import Treatments from "../Treatments/Treatments";
+import Update from "../Update/Update";
 
 import "./Home.css";
 
@@ -24,6 +25,7 @@ const Home = () => {
           </div>
           <div>
             <Appointments></Appointments>
+            <Update></Update>
           </div>
         </div>
       </div>
